@@ -1,7 +1,7 @@
 .nav {
     position:fixed;
     bottom: 0;
-    width: 100%;
+    width: 400px;
     background-color: #F9F9FA;
     padding : 20px 50px;
     box-sizing : border-box;
@@ -17,4 +17,20 @@
 
 .nav__link {
     color : #2E363E;
+    position : relative;
+}
+
+.nav__notification {
+    background-color: tomato;
+    color:white;
+    font-weight: 400;
+    height: 20px;
+    width:20px;
+    border-radius: 10px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -11px;
+    bottom : 16px;
 }
