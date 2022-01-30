@@ -7,9 +7,12 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
 /*screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 html {
   width : 400px;
@@ -18,6 +21,11 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   color: #2E363E;;
+}
+
+
+.main-screen {
+  padding : 0px var(--horizontal-space);
 }
 
 
