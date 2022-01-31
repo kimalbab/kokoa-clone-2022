@@ -121,7 +121,7 @@
 .reply {
     position: fixed;
     bottom: 0;
-    width: 400px;
+    width: 100vw;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -134,27 +134,28 @@
 
 
 .reply .reply__column:first-child{
-    width: 400px;
+    width: 90vw;
 }
 
 .reply .reply__column:last-child{
-    width: 360px;
+    width: 90vw;
     position: relative;
 }
 
 .reply input {
     height: 30px;
-    width: 300px;
+    width: 78vw;
     border: var(--main-border);
     border-radius: 20px;
     transition: all 0.3s ease-in-out;
+    padding : 0px 8px;
 }
 
 .reply__column:last-child > i,
 .reply__column:last-child button {
     position: absolute;
-    right: 2px;
-    top: 2px;
+    right: 0px;
+    top: 1px;
 }
 
 .reply__column:last-child > i {
