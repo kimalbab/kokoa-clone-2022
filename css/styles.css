@@ -10,6 +10,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-header.css";
+@import "components/no-mobile.css";
 /*screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -19,14 +20,14 @@
 @import "screens/chat.css";
 
 html {
-  width : 400px;
-  height : 800px;
+  width : 100vw;
+  height : 100vh;
 }
 body {
   font-family: 'Open Sans', sans-serif;
   color: #2E363E;;
-  width : 400px;
-  height : 800px;
+  width : 100vw;
+  height : 100vh;
 }
 
 
