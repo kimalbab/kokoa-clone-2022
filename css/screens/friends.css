@@ -11,3 +11,27 @@
 #friends-diplat-link i{
     color: rgba(0,0,0,0.3);
 }
+
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#splash-screen {
+    background-color: var(--yellow);
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    animation: hideSplashScreen 0.6s ease-in-out forwards;
+    animation-delay: 0.2s;
+}

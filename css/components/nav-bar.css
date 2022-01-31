@@ -20,6 +20,21 @@
     position : relative;
 }
 
+@keyframes notificationAnimation {
+    0% {
+        transform :none;
+    }
+    50% {
+        transform :translateY(-5px) rotateY(360deg) ;
+    }
+    100% {
+        transform: none;
+    }
+}
+
+
+
+
 .nav__notification {
     background-color: tomato;
     color:white;
@@ -33,4 +48,6 @@
     position: absolute;
     right: -11px;
     bottom : 16px;
+    animation: notificationAnimation 2s ease-in-out infinite;
 }
+
